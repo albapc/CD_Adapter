@@ -12,14 +12,6 @@ public class Hash2List extends ClassList {
         while (t.hasNext()) {
             miLista.add(hashAconvertir.miHash.get(t.next()));
         }
-
-        //para que nos muestre las keys y values
-//        Iterator t = hashAconvertir.miHash.entrySet().iterator();
-//        while (t.hasNext()) {
-//            Map.Entry entry = (Map.Entry) t.next();
-//            Integer key = (Integer) entry.getKey();
-//            String value = (String) entry.getValue();
-//            System.out.println(key + ": " + value);
     }
 
 }
